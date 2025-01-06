@@ -1,3 +1,4 @@
+import java.util.Scanner();//Importing input File
 class Prime
 {
 public static void main(String [] args) 
@@ -6,8 +7,11 @@ public static void main(String [] args)
    //Declaration of variables
 
    int i,p,n; //The (i) variable is for Loop condition & the (P) variable, declaration will be discuss further
-            
-            n=7;
+
+            System.out.print("Enter a Number:";
+            Scanner Input = new Scanner(System.in);//Taking input From user & storing in the (n) variable.
+                  n = input.nextInt();
+         
 
             p=1;// Declaring the p=1;
 
